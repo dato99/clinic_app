@@ -1,0 +1,55 @@
+
+    
+    .hero-section {
+        background-image: url('/images/Rectangle 30.png');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        color: white;
+      }
+      
+      .hero-content h1 {
+        width: 676px;
+        height: 116px;
+        top: 414px;
+        left: 150px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: FiraGO;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 57.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        margin-right: 900px;
+
+      }
+      
+      .address-box {
+        display: inline-flex;
+        align-items: center;
+        background-color: #FFFFFF; 
+        padding: 10px 15px;
+        border-radius: 25px; /* მომრგვალებული კუთხეები */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* ჩრდილი */
+      }
+      
+      .icon {
+        width: 24px; /* აიქონის ზომა */
+        height: 24px;
+        margin-right: 10px; /* სივრცე აიქონსა და ტექსტს შორის */
+      }
+      
+      .address-text {
+        font-size: 1rem;
+        color: #333; /* ტექსტის ფერი */
+        font-weight: 500;
+      }
+      

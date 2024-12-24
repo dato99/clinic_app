@@ -1,0 +1,27 @@
+.category-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 200px;
+  }
+  
+  .category-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .category-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-container li {
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+  }git status
+  
+  .category-container li:hover {
+    color: #007bff;
+  }
+  

@@ -1,16 +1,18 @@
+
 .navbar {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
   }
   
   .logo-container {
     display: flex; 
     align-items: center; 
-    gap: 8px;
-    padding-left: 40px ;
+    gap: 0px;
+    padding-left: 150px ;
   }
   
   .logo {
@@ -66,10 +68,11 @@
   }
 
 .auth-lang {
+    padding-top: 17;
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-right: 40px;
+    padding-right: 150px;
   }
   .auth-link {
     text-decoration: none;
@@ -101,5 +104,84 @@
     opacity: 0px;
 
   }
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #ECF2F8;
+
+}
+
+.clinic-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.clinic-phone,
+.clinic-address {
+  display: flex;
+  align-items: center;
+  gap:8px;
+  font-size: 18px;
+  color: #053354;
+}
+.icon-container {
+  width: 40px;
+  height: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; 
+  border-radius: 50%; 
+  margin-left: 120px;
+}
+.icon {
+  width: 20px; 
+  height: 20px; 
+}
+
+.search-fields {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #18A4E180;
+  border-radius: 50px;
+  width: 480px;
+  transition: border-color 0.3s ease;
+}
+.search-fields img{
+  width: 40px;
+  height: 40px;
+  padding-right: 150px;
+  top: 158px;
+  left: 1733px;
+  padding: 2px 1.69px 1.69px 2px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+
+.search-input:focus {
+  border-color: #042683; 
+}
+.search-icon {
+  width: 50px; 
+  height: 50px;
+  background-color: #053354; 
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 100px;
+}
 
 
