@@ -10,8 +10,11 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { CategoryComponent } from './components/category/category.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { DoctorListComponent } from './components/doctor-list/doctor-list.component';
-import { RegistrationComponent } from './components/registration/registration.component';
 
+import { RegistrationComponent } from './components/registration/registration.component';
+import { FullCalendarModule } from '@fullcalendar/angular';
+
+import { BookingComponent } from './components/booking/booking.component';
 
 
 @NgModule({
@@ -23,17 +26,21 @@ import { RegistrationComponent } from './components/registration/registration.co
     CategoryComponent,
     DoctorListComponent,
     MainPageComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    BookingComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule, // <-- Add this here 
-    HttpClientModule
+    FormsModule, 
+    HttpClientModule,
+    FullCalendarModule
   ],
   providers: [
     provideClientHydration()
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}

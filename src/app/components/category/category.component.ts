@@ -1,5 +1,5 @@
 import { Component,   OnInit } from '@angular/core';
-import { CategoryService, Category } from '../../category.service';
+import { CategoryService, Category } from '../../services/category.service';
 
 
 @Component({
@@ -13,13 +13,13 @@ export class CategoryComponent implements OnInit {
   constructor(private categoryService: CategoryService) {}
 
   ngOnInit(): void {
-    this.loadCategories();
+    this.fetchCategories();
   }
 
-  loadCategories(): void {
+  fetchCategories(): void {
     this.categoryService.getCategories().subscribe(
       (data) => {
-        this.categories = data; // Assign data to categories
+        this.categories = data;
       },
       (error) => {
         console.error('Error fetching categories:', error);
@@ -27,3 +27,4 @@ export class CategoryComponent implements OnInit {
     );
   }
 }
+

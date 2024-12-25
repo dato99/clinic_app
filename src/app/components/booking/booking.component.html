@@ -1,0 +1,26 @@
+<!-- Booking Component HTML -->
+
+<div class="calendar-container">
+    <full-calendar
+      #calendar
+      [options]="calendarOptions"
+      [events]="events"
+      (dateClick)="handleDateSelect($event)"
+      (eventClick)="handleEventClick($event)">
+    </full-calendar>
+  </div>
+  
+  <!-- Modal or Popup for booking appointments (You can use Angular Material Dialog or Bootstrap Modal) -->
+  <div *ngIf="isBookingModalOpen" class="booking-modal">
+    <div class="modal-content">
+      <h3>Book an Appointment</h3>
+      <label for="appointment-time">Choose Time:</label>
+      <input type="time" id="appointment-time" [(ngModel)]="selectedTime" />
+      <button (click)="bookAppointment()">Book</button>
+      <button (click)="closeBookingModal()">Cancel</button>
+    </div>
+  </div>
+
+
+
+  
