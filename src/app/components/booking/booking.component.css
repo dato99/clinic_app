@@ -1,24 +1,29 @@
-.booking-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  button {
-    margin-top: 10px;
-  }
+.small-calendar .fc {
+  font-size: 12px; /* Reduce font size */
+  width: 400px; /* Fixed width */
+  height: 300px; /* Fixed height */
+}
+
+.small-calendar .fc-toolbar {
+  padding: 0.5rem; /* Reduce toolbar padding */
+}
+
+.small-calendar .fc-toolbar-title {
+  font-size: 14px; /* Smaller title font */
+}
+
+.small-calendar .fc-daygrid-day {
+  padding: 0.2rem; /* Reduce cell padding */
+  height: 20px; /* Reduce cell height */
+}
+
+.small-calendar .fc-daygrid-day-number {
+  font-size: 10px; /* Smaller day numbers */
+}
+
+.small-calendar .fc-scrollgrid {
+  max-width: 400px; /* Restrict calendar width */
+}
+
   
   
