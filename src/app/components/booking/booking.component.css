@@ -1,28 +1,28 @@
 .small-calendar .fc {
-  font-size: 12px; /* Reduce font size */
-  width: 400px; /* Fixed width */
-  height: 300px; /* Fixed height */
+  font-size: 12px;
+  width: 400px; 
+  height: 300px; 
 }
 
 .small-calendar .fc-toolbar {
-  padding: 0.5rem; /* Reduce toolbar padding */
+  padding: 0.5rem; 
 }
 
 .small-calendar .fc-toolbar-title {
-  font-size: 14px; /* Smaller title font */
+  font-size: 14px; 
 }
 
 .small-calendar .fc-daygrid-day {
-  padding: 0.2rem; /* Reduce cell padding */
-  height: 20px; /* Reduce cell height */
+  padding: 0.2rem; 
+  height: 20px; 
 }
 
 .small-calendar .fc-daygrid-day-number {
-  font-size: 10px; /* Smaller day numbers */
+  font-size: 10px; 
 }
 
 .small-calendar .fc-scrollgrid {
-  max-width: 400px; /* Restrict calendar width */
+  max-width: 400px; 
 }
 
   
